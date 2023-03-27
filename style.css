@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+}
+
+.navli{
+    list-style-type: none;
+    display: inline;
+}
+.logoimg{
+width:25vw ;
+}
+.navul{
+    text-align: center;
+    align-items: center;
+    display: inline;
+}
+.navbar{
+    padding-top: 0 !important ;
+    padding-bottom: 0  !important;
+
+}
+.img1{
+height:70vh ;
+width: 100vw;
+z-index: -1111;
+}
+
+.example{
+    position: relative;
+    text-align: center;
+}
+.background-image{
+      box-shadow: black 0px 30px 50px;
+height: 400px;;
+width: 600px;
+  opacity: 0.7;
+margin-top: 2%;
+
+  }
+  .overlay-text{
+    background-color:rgba(0, 0, 0, 0.568);
+    padding:20px;
+    text-align:center;
+    position: absolute;
+    top:50%;
+    right:50%;
+    transform:translate(50%, -50%);
+    color: white;
+  }
+
+
+
+.frt{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(114, 113, 113, 0.349);
+}
+
+.faq{
+    bottom: 15%;
+    position: fixed;
+   right: 10%;
+
+  
+}
+.cardmain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(242, 247, 245, 0.308) !important;
+}
+.card-img-top{
+    height: 30% !important;
+    filter: brightness(90%)  contrast(80%)!important;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2%;
+z-index: 1;
+    border-radius: 30px;
+    text-align: center;
+border: 2px solid black;
+    color: black;
+
+  }
+  
+  label, input, textarea {
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  
+  button[type="submit"] {
+    
+    width: auto;
+    padding: 1%  2% 1% 2%;
+    border: 1px solid black;
+    border-radius: 50px;
+  }
+  .button{
+text-align: center;
+  
+    margin: 3%;
+  }
+  .contact{
+margin-top: 6%;
+position:relative;
+  }
+.cotbg{
+    opacity: 0.5;
+    z-index: -1;
+    position: fixed;
+max-width: max-content;
+right: 0;
+top: 0;
+background-repeat: no-repeat;
+width: fit-content;
+height: 100vh;
+}
+
+._2tnu-{
+    display: flex;
+    flex-direction: row;
+}
+.po1{
+
+    border-radius: 50%;
+    width:100%;
+    margin: 3%;
+  padding-bottom: 4%;
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    
+}
+._2RZDN{
+    margin-top: 30%;
+    text-align: center;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.txt{
+    width: 100%;
+    height: 40%;
+}
+.services_main{
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+
+}
+.services_contain{
+  width: 30%;
+  text-align: center;
+  
+  display: inline;
+  padding: 1%;
+  background-color: rgba(240, 255, 255, 0.692);
+  margin: 1%;
+  border: 2px solid rebeccapurple;
+  border-radius: 5%;
+
+}
+.services_contain:hover{
+  box-shadow: 5px 5px 20px black;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.sevice_img{
+  width: 100%;
+}
+.btnd{
+  text-align: center;
+  align-items: center;
+  margin-top:2% ;
+}
+
+.btns{
+  display: inline-block;
+padding:2%;
+width: 60%;
+background-color: rgba(82, 46, 216, 0.466) ;
+color: black ;
+border-radius:5%;
+
+
+}
+.btns:hover{
+  box-shadow: 2px 2px 15px rgb(131, 131, 216);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.frt_logo{
+  display: inline;
+  float: right;
+margin-right: 10%;
+}
+
+.price{
+
+}
+.addtocart{
+ padding: 5px; 
+ background-color: aliceblue;
+}
+p{
+  margin-bottom: 0 !important;
+}
+.fa-question-circle {
+  color: rgba(15, 15, 15, 0.575);
+}
+
+.fa-facebook , .fa-instagram , .fa-twitter{
+  font-size: 150% !important;
+}
+.srv{
+  display: flex;
+  align-content: center;
+  width: 100%;
+}
