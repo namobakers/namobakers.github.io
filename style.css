@@ -130,8 +130,8 @@ max-width: max-content;
 right: 0;
 top: 0;
 background-repeat: no-repeat;
-width: fit-content;
-height: 100vh;
+width: vw;
+
 }
 
 ._2tnu-{
